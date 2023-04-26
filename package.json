@@ -1,0 +1,21 @@
+{
+  "name": "scrapper-app-store",
+  "version": "1.2.1",
+  "description": "Get data from the Play Store and the App Store",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-playstore": "node index-ps.js",
+    "start-appstore": "node index-as.js"
+  },
+  "author": "Aktilor",
+  "license": "MIT",
+  "dependencies": {
+    "app-store-scraper": "^0.16.2",
+    "csv-writer": "^1.6.0",
+    "dotenv": "^16.0.3",
+    "google-play-scraper": "^7.1.2",
+    "hunterio": "^1.0.0",
+    "parse-domain": "^2.3.4"
+  }
+}
